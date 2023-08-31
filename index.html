@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura de HTML</title>
+    <link rel="stylesheet" href="./style.css"
+  </head>
+  <body>
+     <h1>TITULO DE LA PAGINA</h1>
+    <!-- <h2>Mi primer heading</h2>
+    <h3>Mi primer heading</h3>
+    <h4>Mi primer heading</h4>
+    <h5>Mi primer heading</h5>
+    <h6>Mi primer heading</h6>
+    <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    <hr>
+    <p>Lorem Ipsum is simply dummy text of the printing and <br><span style="color: red;"> typesetting</span>industry. <strong>Lorem </strong> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    <hr>  -->
+<!--este es un cmentario ctrl+k+c-->
+<!-- comentario de prueba descomentar ctrl+k+u -->
+
+<!-- <a href="https://google.com" target="_blank">ir a google</a> -->
+
+<br>
+<img src="./images/dc.jpg" alt="Imagen de portada" width="300">
+<!-- formularios -->
+
+<form action="/ruta" method="post">
+    <label for="nombre">Nonbre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..." required>
+<br>
+    <label for="edad">Edad:</label>
+    <input type="edad" id="edad" name="edad" placeholder="Ingrese su edad..." required>
+ <br>
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su email..." required>
+<!-- <br>
+
+    <label for="Comentatrio">Comentario:</label>
+  <textarea name="cometario" id="comentario" cols="40" rows="5" required> </textarea>
+<br> -->
+
+
+<!-- <label for="calve">Clave::</label>
+    <input type="password" id="clave" name="clave" placeholder="Ingrese su clave..." required>
+    <input type="checkbox">
+    <input type="radio">  -->
+
+    <!-- <input type="submit" value="Enviar"> -->
+<!-- <button type="button">Boton</button> -->
+<br>
+<button type="reset">Reset</button>
+    <button type="submit"> Enviar</button>
+    </form>
+<!-- listas no ordenadas -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Ellmento 4</li>
+    </ul>
+    <!-- listas ordenadas -->
+
+    <ol>
+        <li value="5">Elemneto 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+<!-- uso de tablas -->
+
+<table border="1">
+    <thead class="head-table">
+        <tr>
+            <th>#</th>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Disco Duro</td>
+            <td>500 Bs.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Laptop HP</td>
+            <td>4000 Bs.</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Total</td> 
+            <!-- combinar columnas rowsap -->
+            <td>4500 Bs.</td>
+        </tr>
+    </tfoot>
+</table>
+
+    </body>
